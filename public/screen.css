@@ -4,9 +4,77 @@
 
 html {
   height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 body {
   margin: 0;
   min-height: 100%;
+  background-color: teal;
+  font-family: 'Crimson Pro', serif;
+  color: #3b3936;
+  width: 80%;
+}
+.the-daily-kitteh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dcf2fa;
+  padding: 1rem;
+}
+#navbar {
+  padding: 0.5rem;
+  background-color: teal;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+#navbar {
+  list-style: none;
+}
+
+figure {
+  display: flex;
+  background-color: #dcf2fa;
+  flex-direction: column;
+  padding: 2rem;
+  width: 200px;
+  border: #1f4c5c;
+}
+
+.main-text {
+  background-color: #dcf2fa;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.main-body-text {
+  font-size: 14px;
+}
+
+#footerlist {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: underline;
+  background-color: #fae3e5;
+  padding: 1rem;
+}
+
+.nick {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.KOD {
+  border: 1px black;
+  border-style: solid;
 }
